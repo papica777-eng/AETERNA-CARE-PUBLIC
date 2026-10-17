@@ -1,7 +1,42 @@
-*.pdb
-*.tmp
+# ═══════════════════════════════════════════════════════════════════════════════
+# 🔱 AETERNA CARE // PUBLIC REPOSITORY STRICT IP PROTECTION RULES
+# ═══════════════════════════════════════════════════════════════════════════════
+# Absolute Prohibition of Raw Source Code & Proprietary Engines in Public Repo
+*.py
+*.mojo
+*.cu
+*.rs
+*.cpp
+*.c
+*.h
+*.hpp
+*.comp
+*.spv
+*.sh
+*.bat
+*.ps1
+*.ipynb
+
+# Secrets, keys, logs, environments
+*.env
+*.env.*
+*.key
+*.pem
+*.log
+*.pfx
+
+# Build artifacts, caches, and binaries
 __pycache__/
 *.pyc
 *.pyo
+*.dll
+*.pdb
+*.exp
+*.lib
+*.o
+*.obj
+*.tmp
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db

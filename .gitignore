@@ -1,0 +1,7 @@
+*.pdb
+*.tmp
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+.idea/
